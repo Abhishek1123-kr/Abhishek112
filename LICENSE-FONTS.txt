@@ -1,0 +1,17 @@
+FONT LICENSES
+
+Montserrat Bold
+Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)
+Licensed under the SIL Open Font License, Version 1.1.
+
+IBM Plex Mono Regular
+Copyright 2017 IBM Corp.
+Licensed under the SIL Open Font License, Version 1.1.
+
+SIL OPEN FONT LICENSE Version 1.1
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the fonts, subject to the following conditions: The font software and derivatives must not be sold by itself. The font software may be bundled, redistributed and/or sold with any software, provided that the above copyright notice and this license are included in the distribution. The names of the font software authors shall not be used to promote, endorse or advertise any modified version without prior written permission. The font software, modified or unmodified, in whole or in part, must be distributed entirely under this license, and must not be distributed under any other license.
+
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY.
+
+The complete license text is available from https://scripts.sil.org/OFL.
