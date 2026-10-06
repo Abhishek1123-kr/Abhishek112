@@ -18,7 +18,7 @@
 
 <p align="center">
   <img
-    src="assets/stack.svg?v=1"
+    src="assets/stack.gif"
     alt="Abhishek Kumar technology stack"
     width="100%"
   />
