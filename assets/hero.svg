@@ -70,13 +70,13 @@
 
   <!-- card -->
   <g>
-    <!-- RGB glow, matching the main hero border -->
-    <rect x="430" y="122" width="356" height="410" rx="28"
+    <!-- RGB glow, matching the main hero border (icard box) line 74-77 --> 
+    <rect x="430" y="122" width="356" height="430" rx="28"
       fill="none" stroke="url(#heroRGB)" stroke-width="11" opacity=".16" filter="url(#glow)"/>
-    <rect x="430" y="122" width="356" height="410" rx="28"
-      fill="#0b1120" stroke="url(#heroRGB)" stroke-width="3"/><rect x="430" y="122" width="356" height="410" rx="28" fill="none" stroke="url(#electricRGB)" stroke-width="3" stroke-dasharray="3 12 1 22" stroke-linecap="round" filter="url(#electricGlow)"><animate attributeName="stroke-dashoffset" values="0;-80;0" dur="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".45;1;.5;1;.45" dur="1s" repeatCount="indefinite"/></rect><rect x="430" y="122" width="356" height="410" rx="28" fill="none" stroke="#fff" stroke-width="1.5" stroke-dasharray="2 65" stroke-linecap="round" filter="url(#electricGlow)"><animate attributeName="stroke-dashoffset" from="0" to="-270" dur="1s" repeatCount="indefinite"/></rect>
+    <rect x="430" y="122" width="356" height="430" rx="28"
+      fill="#0b1120" stroke="url(#heroRGB)" stroke-width="3"/><rect x="430" y="122" width="356" height="430" rx="28" fill="none" stroke="url(#electricRGB)" stroke-width="3" stroke-dasharray="3 12 1 22" stroke-linecap="round" filter="url(#electricGlow)"><animate attributeName="stroke-dashoffset" values="0;-80;0" dur="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".45;1;.5;1;.45" dur="1s" repeatCount="indefinite"/></rect><rect x="430" y="122" width="356" height="410" rx="28" fill="none" stroke="#fff" stroke-width="1.5" stroke-dasharray="2 65" stroke-linecap="round" filter="url(#electricGlow)"><animate attributeName="stroke-dashoffset" from="0" to="-270" dur="1s" repeatCount="indefinite"/></rect>
 
-    <rect x="450" y="142" width="322" height="32" rx="10" fill="#101a2e"/>
+    <rect x="450" y="142" width="322" height="32" rx="10" fill="#101a2e"/> 
     <text x="468" y="164" fill="#2bd9ff" font-family="monospace" font-size="11">PARUL UNIVERSITY · CSE</text>
     <text x="738" y="164" fill="#8da0c2" font-family="monospace" font-size="10" text-anchor="end">PROFILE ID 01</text>
 
