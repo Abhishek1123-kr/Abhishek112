@@ -45,7 +45,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=abhishek1123-kr&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F185959634%3Fu%3D666729b85bfb4f822be1f8c1c58806947967a69c%26v%3D4&repos=abhishek1123-kr%2FCLONE-GNUMIS-PU25%2Cabhishek1123-kr%2FAbhishek1123%2Cabhishek1123-kr%2FSTUDYHUB%2Cabhishek1123-kr%2FAbhishek1123-kr&variant=wow&v=wow-projects-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/projects?username=abhishek1123-kr&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F185959634%3Fu%3D666729b85bfb4f822be1f8c1c58806947967a69c%26v%3D4&repos=abhishek1123-kr%2FCLONE-GNUMIS-PU25%2Cabhishek1123-kr%2FAbhishek1123%2Cabhishek1123-kr%2FSTUDYHUB%2Cabhishek1123-kr%2FAbhishek1123-kr&variant=wow&v=wow-projects-1&mode=dark" width="100%" alt="ABHISHEK KUMAR animated project constellation" />
+  <img src="https://www.gitskins.com/api/section/projects?username=abhishek1123-kr&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F185959634%3Fu%3D666729b85bfb4f822be1f8c1c58806947967a69c%26v%3D4&repos=abhishek1123-kr%2FConnectFlow%2Cabhishek1123-kr%2FJournal%2Cabhishek1123-kr%2FSTUDYHUB%2Cabhishek1123-kr%2FAbhishek1123-kr&variant=wow&v=wow-projects-1&mode=dark" width="100%" alt="ABHISHEK KUMAR animated project constellation" />
 
   <div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=abhishek1123-kr&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
   
