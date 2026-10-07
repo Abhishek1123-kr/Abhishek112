@@ -134,16 +134,7 @@
          Then this URL will work in Vite/React.
     -->
 
-<image
-  x="75"
-  y="175"
-  width="400"
-  height="310"
-  preserveAspectRatio="xMidYMid slice"
-  href="https://raw.githubusercontent.com/Abhishek1123-kr/Abhishek1123-kr/main/assets/profile2.png"
-  xlink:href="https://raw.githubusercontent.com/Abhishek1123-kr/Abhishek1123-kr/main/assets/profile2.png"
-  clip-path="url(#profileClip)"
-/>
+  <img src="https://raw.githubusercontent.com/Abhishek1123-kr/Abhishek1123-kr/main/assets/profile2.png" width="400" alt="Profile" />
 
     <!-- Image border -->
     <rect
