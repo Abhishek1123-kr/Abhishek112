@@ -39,7 +39,7 @@
 <text x="61" y="293" fill="#8ea3c8" font-family="monospace" font-size="13" letter-spacing=".7">CSE STUDENT · FULL-STACK BUILDER · AI / CLOUD EXPLORER</text>
 <g font-family="'Fira Code', monospace" font-size="20" font-weight="600" fill="#3399FF">
   <text x="61" y="337">&gt;<tspan fill="#3399FF"><animate attributeName="opacity" values="1;0.2;1" dur="0.9s" repeatCount="indefinite"/>_ </tspan></text>
-  <text><textPath href="#typePath0" xlink:href="#typePath0">CSE Student @ University Vadodara</textPath></text>
+  <text><textPath href="#typePath0" xlink:href="#typePath0">CSE Student @ Parul University </textPath></text>
   <text><textPath href="#typePath1" xlink:href="#typePath1">Python &amp; Java Developer</textPath></text>
   <text><textPath href="#typePath2" xlink:href="#typePath2">Building Scalable Cloud Architectures</textPath></text>
   <text><textPath href="#typePath3" xlink:href="#typePath3">DevOps &amp; Automation Enthusiast</textPath></text>
