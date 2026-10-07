@@ -1,12 +1,16 @@
-# ABHISHEK KUMAR · GitHub Profile
 
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=abhishek1123-kr&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 <p align="center">
+
+  
   <img
     src="assets/hero.svg?v=1"
     alt="Abhishek Kumar animated GitHub profile hero"
     width="100%"
   />
 </p>
+
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=abhishek1123-kr&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
 <p align="center">
   <img
@@ -16,6 +20,8 @@
   />
 </p>
 
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=abhishek1123-kr&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
+
 <p align="center">
   <img
     src="assets/stack.svg"
@@ -24,13 +30,8 @@
   />
 </p>
 
-<p align="center">
-  <img
-    src="assets/id-dashboard.svg?v=1"
-    alt="Abhishek Kumar developer identity dashboard"
-    width="100%"
-  />
-</p>
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=abhishek1123-kr&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
+
 
 <p align="center">
   <img
@@ -40,7 +41,7 @@
   />
 </p>
 
----
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=abhishek1123-kr&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
 ## 🚀 Projects
 
