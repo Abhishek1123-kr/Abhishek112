@@ -2,7 +2,7 @@
 
 <p align="center">
   <img
-    src="assets/hero (2).svg?v=1"
+    src="assets/hero.svg?v=1"
     alt="Abhishek Kumar animated GitHub profile hero"
     width="100%"
   />
