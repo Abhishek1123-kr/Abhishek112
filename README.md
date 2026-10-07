@@ -37,7 +37,7 @@
   <img
     src="assets/connect.svg?v=1"
     alt="Connect with Abhishek Kumar"
-    width="100%"
+    width="100%."
   />
 </p>
 
