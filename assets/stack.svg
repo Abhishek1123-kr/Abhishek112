@@ -201,6 +201,9 @@
       .float5 {
         animation:float5 3.8s ease-in-out infinite;
       }
+               .float6 {
+        animation:float5 3.8s ease-in-out infinite;
+      }
 
       @keyframes float1 {
         0%,100% { transform:translate(0,0); }
@@ -226,6 +229,7 @@
         0%,100% { transform:translate(0,0); }
         50% { transform:translate(-7px,7px); }
       }
+         
 
       /* Moving dots */
       .particle {
@@ -586,7 +590,7 @@
 
   <!-- RIGHT PANEL -->
 
-  <g transform="translate(770 140)">
+  <g transform="translate(720 140)">
 
     <text class="txt blue"
           font-size="12">
@@ -642,7 +646,7 @@
             y="98"
             class="txt"
             font-size="14">
-        Node · Flask / Django · Python · Java · Spring Boot
+        Node · Django · Python · Java · Spring Boot
       </text>
 
     </g>
