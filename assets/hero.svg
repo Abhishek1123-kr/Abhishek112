@@ -1,545 +1,922 @@
-<svg width="1200" height="540" viewBox="0 0 1200 540"
-     xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="1200"
+  height="560"
+  viewBox="0 0 1200 560"
+  role="img"
+  aria-label="Abhishek Kumar GitHub profile hero">
 
   <defs>
 
-    <!-- =========================
+    <!-- =====================================================
          BACKGROUND
-    ========================== -->
-    <radialGradient id="bgGlow" cx="70%" cy="45%" r="80%">
-      <stop offset="0%" stop-color="#101b38"/>
-      <stop offset="45%" stop-color="#070d1d"/>
-      <stop offset="100%" stop-color="#030711"/>
+    ====================================================== -->
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="560">
+      <stop offset="0%"   stop-color="#030712"/>
+      <stop offset="50%"  stop-color="#07101d"/>
+      <stop offset="100%" stop-color="#02050c"/>
+    </linearGradient>
+
+    <radialGradient id="blueGlow"
+      cx="0" cy="0" r="1"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(940 280) rotate(90) scale(300 340)">
+      <stop offset="0%" stop-color="#0066ff" stop-opacity=".16"/>
+      <stop offset="100%" stop-color="#0066ff" stop-opacity="0"/>
     </radialGradient>
 
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1" fill="#4d6b9d" opacity=".28"/>
+    <radialGradient id="purpleGlow"
+      cx="0" cy="0" r="1"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(1030 400) rotate(90) scale(230 260)">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity=".15"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- =====================================================
+         DOT BACKGROUND
+    ====================================================== -->
+
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#64748b" opacity=".22"/>
     </pattern>
 
-    <!-- =========================
-         RGB BORDER GRADIENT
-    ========================== -->
-    <linearGradient id="rgbBorder"
-                    x1="0%" y1="0%"
-                    x2="100%" y2="100%">
+
+    <!-- =====================================================
+         MAIN RGB BORDER
+    ====================================================== -->
+
+    <linearGradient id="mainRGB"
+      x1="0"
+      y1="0"
+      x2="1200"
+      y2="560"
+      gradientUnits="userSpaceOnUse">
+
       <stop offset="0%" stop-color="#00eaff">
-        <animate attributeName="stop-color"
-                 values="#00eaff;#7c3cff;#ff00a8;#00eaff"
-                 dur="5s"
-                 repeatCount="indefinite"/>
+        <animate
+          attributeName="stop-color"
+          values="#00eaff;#2563eb;#8b5cf6;#ff00a8;#00eaff"
+          dur="7s"
+          repeatCount="indefinite"/>
       </stop>
 
-      <stop offset="35%" stop-color="#7c3cff">
-        <animate attributeName="stop-color"
-                 values="#7c3cff;#ff00a8;#00eaff;#7c3cff"
-                 dur="5s"
-                 repeatCount="indefinite"/>
+      <stop offset="45%" stop-color="#8b5cf6">
+        <animate
+          attributeName="stop-color"
+          values="#8b5cf6;#ff00a8;#00eaff;#2563eb;#8b5cf6"
+          dur="7s"
+          repeatCount="indefinite"/>
       </stop>
 
-      <stop offset="70%" stop-color="#ff00a8">
-        <animate attributeName="stop-color"
-                 values="#ff00a8;#00eaff;#7c3cff;#ff00a8"
-                 dur="5s"
-                 repeatCount="indefinite"/>
-      </stop>
-
-      <stop offset="100%" stop-color="#00eaff">
-        <animate attributeName="stop-color"
-                 values="#00eaff;#ff00a8;#7c3cff;#00eaff"
-                 dur="5s"
-                 repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#ff00a8">
+        <animate
+          attributeName="stop-color"
+          values="#ff00a8;#00eaff;#2563eb;#8b5cf6;#ff00a8"
+          dur="7s"
+          repeatCount="indefinite"/>
       </stop>
 
       <animateTransform
         attributeName="gradientTransform"
         type="rotate"
-        from="0 600 270"
-        to="360 600 270"
-        dur="7s"
+        from="0 600 280"
+        to="360 600 280"
+        dur="9s"
         repeatCount="indefinite"/>
     </linearGradient>
 
-    <!-- =========================
-         ID CARD RGB GRADIENT
-    ========================== -->
+
+    <!-- =====================================================
+         ID CARD RGB BORDER
+    ====================================================== -->
+
     <linearGradient id="cardRGB"
-                    x1="0%"
-                    y1="0%"
-                    x2="100%"
-                    y2="100%">
+      x1="0"
+      y1="0"
+      x2="300"
+      y2="430"
+      gradientUnits="userSpaceOnUse">
 
-      <stop offset="0%" stop-color="#00eaff">
-        <animate attributeName="stop-color"
-                 values="#00eaff;#0066ff;#8b5cf6;#ff00c8;#00eaff"
-                 dur="4s"
-                 repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#00f0ff">
+        <animate
+          attributeName="stop-color"
+          values="#00f0ff;#0066ff;#7c3aed;#ff00a8;#00f0ff"
+          dur="4s"
+          repeatCount="indefinite"/>
       </stop>
 
-      <stop offset="50%" stop-color="#8b5cf6">
-        <animate attributeName="stop-color"
-                 values="#8b5cf6;#ff00c8;#00eaff;#0066ff;#8b5cf6"
-                 dur="4s"
-                 repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#7c3aed">
+        <animate
+          attributeName="stop-color"
+          values="#7c3aed;#ff00a8;#00f0ff;#0066ff;#7c3aed"
+          dur="4s"
+          repeatCount="indefinite"/>
       </stop>
 
-      <stop offset="100%" stop-color="#ff00c8">
-        <animate attributeName="stop-color"
-                 values="#ff00c8;#00eaff;#0066ff;#8b5cf6;#ff00c8"
-                 dur="4s"
-                 repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#ff00a8">
+        <animate
+          attributeName="stop-color"
+          values="#ff00a8;#00f0ff;#0066ff;#7c3aed;#ff00a8"
+          dur="4s"
+          repeatCount="indefinite"/>
       </stop>
 
       <animateTransform
         attributeName="gradientTransform"
         type="rotate"
-        from="0 980 270"
-        to="360 980 270"
-        dur="6s"
+        from="0 970 300"
+        to="360 970 300"
+        dur="5s"
         repeatCount="indefinite"/>
     </linearGradient>
 
-    <!-- =========================
-         GLOWS
-    ========================== -->
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
 
-    <filter id="smallGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+    <!-- =====================================================
+         CARD SURFACE
+    ====================================================== -->
 
-    <!-- =========================
-         CLIP FOR ID CARD IMAGE
-    ========================== -->
-    <clipPath id="cardImageClip">
-      <rect x="922" y="151" width="222" height="184" rx="12"/>
+    <linearGradient id="cardSurface"
+      x1="830"
+      y1="90"
+      x2="1140"
+      y2="500">
+
+      <stop offset="0%" stop-color="#111c35"/>
+      <stop offset="55%" stop-color="#0b152a"/>
+      <stop offset="100%" stop-color="#060b17"/>
+
+    </linearGradient>
+
+
+    <!-- =====================================================
+         PHOTO CLIP
+    ====================================================== -->
+
+    <clipPath id="photoClip">
+
+      <rect
+        x="904"
+        y="171"
+        width="218"
+        height="192"
+        rx="14"/>
+
     </clipPath>
+
+
+    <!-- =====================================================
+         PHOTO DARK GRADIENT
+    ====================================================== -->
+
+    <linearGradient id="photoShade"
+      x1="0"
+      y1="0"
+      x2="0"
+      y2="1">
+
+      <stop offset="0%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#000" stop-opacity=".02"/>
+      <stop offset="100%" stop-color="#000" stop-opacity=".35"/>
+
+    </linearGradient>
+
+
+    <!-- =====================================================
+         GLOW
+    ====================================================== -->
+
+    <filter id="glow"
+      x="-100%"
+      y="-100%"
+      width="300%"
+      height="300%">
+
+      <feGaussianBlur
+        stdDeviation="8"
+        result="blur"/>
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+
+    </filter>
+
+
+    <filter id="smallGlow"
+      x="-100%"
+      y="-100%"
+      width="300%"
+      height="300%">
+
+      <feGaussianBlur
+        stdDeviation="3"
+        result="blur"/>
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+
+    </filter>
+
+
+    <!-- =====================================================
+         CARD SHADOW
+    ====================================================== -->
+
+    <filter id="shadow"
+      x="-80%"
+      y="-80%"
+      width="260%"
+      height="260%">
+
+      <feDropShadow
+        dx="0"
+        dy="18"
+        stdDeviation="14"
+        flood-color="#000000"
+        flood-opacity=".65"/>
+
+    </filter>
+
+
+    <!-- =====================================================
+         LIGHT
+    ====================================================== -->
+
+    <radialGradient id="light">
+
+      <stop offset="0%" stop-color="#fff"/>
+      <stop offset="25%" stop-color="#00eaff" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#00eaff" stop-opacity="0"/>
+
+    </radialGradient>
+
+
+    <!-- =====================================================
+         CARD HIGHLIGHT
+    ====================================================== -->
+
+    <linearGradient id="shine"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="1">
+
+      <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#fff" stop-opacity=".08"/>
+      <stop offset="50%" stop-color="#fff" stop-opacity=".25"/>
+      <stop offset="55%" stop-color="#fff" stop-opacity=".08"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+
+      <animateTransform
+        attributeName="gradientTransform"
+        type="translate"
+        values="-1 0;1 0;-1 0"
+        dur="4s"
+        repeatCount="indefinite"/>
+
+    </linearGradient>
 
   </defs>
 
 
-  <!-- =========================================================
-       MAIN BACKGROUND
-  ========================================================== -->
+  <!-- =====================================================
+       BACKGROUND
+  ====================================================== -->
 
-  <rect width="1200" height="540" fill="#030711"/>
+  <rect
+    width="1200"
+    height="560"
+    fill="url(#bg)"/>
 
-  <rect width="1200"
-        height="540"
-        fill="url(#bgGlow)"/>
+  <rect
+    width="1200"
+    height="560"
+    fill="url(#dots)"/>
 
-  <rect width="1200"
-        height="540"
-        fill="url(#grid)"
-        opacity=".75"/>
+  <rect
+    width="1200"
+    height="560"
+    fill="url(#blueGlow)"/>
 
-
-  <!-- =========================================================
-       BACKGROUND RGB LIGHT
-  ========================================================== -->
-
-  <ellipse cx="950"
-           cy="275"
-           rx="280"
-           ry="240"
-           fill="#0066ff"
-           opacity=".08"
-           filter="url(#softGlow)">
-    <animate attributeName="opacity"
-             values=".04;.12;.05;.10;.04"
-             dur="4s"
-             repeatCount="indefinite"/>
-  </ellipse>
+  <rect
+    width="1200"
+    height="560"
+    fill="url(#purpleGlow)"/>
 
 
-  <!-- =========================================================
+  <!-- =====================================================
        MAIN HERO RGB BORDER
-  ========================================================== -->
+    ====================================================== -->
 
-  <rect x="22"
-        y="22"
-        width="1156"
-        height="496"
-        rx="34"
-        fill="none"
-        stroke="#00eaff"
-        stroke-width="14"
-        opacity=".12"
-        filter="url(#softGlow)"/>
+  <rect
+    x="22"
+    y="22"
+    width="1156"
+    height="516"
+    rx="34"
+    fill="none"
+    stroke="url(#mainRGB)"
+    stroke-width="14"
+    opacity=".12"
+    filter="url(#glow)"/>
 
-  <rect x="22"
-        y="22"
-        width="1156"
-        height="496"
-        rx="34"
-        fill="none"
-        stroke="url(#rgbBorder)"
-        stroke-width="2.5"/>
+  <rect
+    x="22"
+    y="22"
+    width="1156"
+    height="516"
+    rx="34"
+    fill="none"
+    stroke="url(#mainRGB)"
+    stroke-width="2.5"/>
 
 
-  <!-- =========================================================
-       TOP LEFT
-  ========================================================== -->
+  <!-- =====================================================
+       LEFT SIDE
+  ====================================================== -->
 
-  <text x="62"
-        y="72"
-        fill="#28dfff"
-        font-family="monospace"
-        font-size="15"
-        letter-spacing="1.5">
+  <text
+    x="62"
+    y="73"
+    fill="#28dfff"
+    font-family="monospace"
+    font-size="15"
+    letter-spacing="1.5">
+
     HELLO, WORLD_
+
   </text>
 
-  <text x="62"
-        y="122"
-        fill="#ffffff"
-        opacity=".9"
-        font-family="monospace"
-        font-size="17">
+
+  <text
+    x="62"
+    y="122"
+    fill="#cbd5e1"
+    font-family="monospace"
+    font-size="17">
+
     I’m
+
   </text>
 
 
-  <!-- =========================================================
+  <!-- =====================================================
        NAME
-  ========================================================== -->
+  ====================================================== -->
 
-  <text x="60"
-        y="190"
-        fill="#f5f7ff"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="66"
-        font-weight="900"
-        letter-spacing="1">
+  <text
+    x="58"
+    y="190"
+    fill="#f8fafc"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="67"
+    font-weight="900"
+    letter-spacing="1">
+
     ABHISHEK
+
   </text>
 
-  <text x="60"
-        y="255"
-        fill="#f5f7ff"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="66"
-        font-weight="900"
-        letter-spacing="1">
+
+  <text
+    x="58"
+    y="255"
+    fill="#f8fafc"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="67"
+    font-weight="900"
+    letter-spacing="1">
+
     KUMAR
+
   </text>
 
 
-  <!-- =========================================================
-       ROLE LABEL
-  ========================================================== -->
+  <!-- =====================================================
+       SUBTITLE
+  ====================================================== -->
 
-  <text x="63"
-        y="292"
-        fill="#8da2c7"
-        font-family="monospace"
-        font-size="14"
-        letter-spacing="1">
-    CSE STUDENT  ·  FULL-STACK BUILDER  ·  AI / CLOUD EXPLORER
+  <text
+    x="62"
+    y="293"
+    fill="#8ea3c8"
+    font-family="monospace"
+    font-size="13"
+    letter-spacing=".7">
+
+    CSE STUDENT · FULL-STACK BUILDER · AI / CLOUD EXPLORER
+
   </text>
 
 
-  <!-- =========================================================
-       READ ME TYPING SVG
-  ========================================================== -->
+  <!-- =====================================================
+       TYPING SVG
+  ====================================================== -->
 
   <image
     x="60"
-    y="315"
-    width="650"
-    height="55"
+    y="312"
+    width="700"
+    height="58"
     preserveAspectRatio="xMinYMid meet"
-    href="https://readme-typing-svg.demolab.com/?font=Orbitron%26weight=600%26size=26%26pause=900%26color=7DF9FF%26center=false%26vCenter=true%26width=900%26height=66%26lines=Frontend%20or%20full-stack%20engineer;Btech%20CSE%20student%20at%20Parul%20University.;Building%20with%20TypeScript%20%C2%B7%20HTML%20%C2%B7%20CSS;Always%20coding%20%C2%B7%20learning%20%C2%B7%20shipping%20%F0%9F%9A%80"
-  />
+    href="https://readme-typing-svg.demolab.com/?font=Orbitron&amp;weight=600&amp;size=26&amp;pause=900&amp;color=7DF9FF&amp;center=false&amp;vCenter=true&amp;width=900&amp;height=66&amp;lines=Frontend%20or%20full-stack%20engineer;Btech%20CSE%20student%20at%20Parul%20University.;Building%20with%20TypeScript%20%C2%B7%20HTML%20%C2%B7%20CSS;Always%20coding%20%C2%B7%20learning%20%C2%B7%20shipping%20%F0%9F%9A%80"/>
 
 
-  <!-- =========================================================
+  <!-- =====================================================
        DESCRIPTION
-  ========================================================== -->
+  ====================================================== -->
 
-  <text x="63"
-        y="400"
-        fill="#e7ecff"
-        font-family="monospace"
-        font-size="15">
+  <text
+    x="63"
+    y="405"
+    fill="#e2e8f0"
+    font-family="monospace"
+    font-size="14">
+
     Building useful software where AI, automation
+
   </text>
 
-  <text x="63"
-        y="423"
-        fill="#e7ecff"
-        font-family="monospace"
-        font-size="15">
+
+  <text
+    x="63"
+    y="428"
+    fill="#e2e8f0"
+    font-family="monospace"
+    font-size="14">
+
     and developer experience meet.
+
   </text>
 
 
-  <!-- =========================================================
-       LOCATION / UNIVERSITY
-  ========================================================== -->
+  <!-- =====================================================
+       LOCATION
+  ====================================================== -->
 
-  <circle cx="69"
-          cy="465"
-          r="4"
-          fill="#00eaff"
-          filter="url(#smallGlow)">
-    <animate attributeName="r"
-             values="3;6;3"
-             dur="1.8s"
-             repeatCount="indefinite"/>
+  <circle
+    cx="69"
+    cy="468"
+    r="4"
+    fill="#00eaff"
+    filter="url(#smallGlow)">
+
+    <animate
+      attributeName="r"
+      values="3;6;3"
+      dur="1.7s"
+      repeatCount="indefinite"/>
+
   </circle>
 
-  <text x="82"
-        y="470"
-        fill="#9cb0d2"
-        font-family="monospace"
-        font-size="13">
+
+  <text
+    x="82"
+    y="473"
+    fill="#94a3b8"
+    font-family="monospace"
+    font-size="12">
+
     Vadodara, Gujarat, India
+
   </text>
 
-  <text x="285"
-        y="470"
-        fill="#566987"
-        font-family="monospace"
-        font-size="13">
+
+  <text
+    x="282"
+    y="473"
+    fill="#4b5e7d"
+    font-family="monospace"
+    font-size="12">
+
     ▣
+
   </text>
 
-  <text x="304"
-        y="470"
-        fill="#9cb0d2"
-        font-family="monospace"
-        font-size="13">
+
+  <text
+    x="302"
+    y="473"
+    fill="#94a3b8"
+    font-family="monospace"
+    font-size="12">
+
     Parul University
+
   </text>
 
 
-  <!-- =========================================================
-       RIGHT SIDE — ID CARD RGB FRAME
-  ========================================================== -->
+  <!-- =====================================================
+       HANGING ID CARD
+       RIGHT SIDE
+  ====================================================== -->
 
-  <!-- Outer glow -->
-  <rect x="825"
-        y="61"
-        width="335"
-        height="418"
-        rx="30"
-        fill="none"
-        stroke="url(#cardRGB)"
-        stroke-width="12"
-        opacity=".18"
-        filter="url(#softGlow)"/>
+  <g
+    id="profile-card"
+    filter="url(#shadow)">
 
-  <!-- Card -->
-  <rect x="825"
-        y="61"
-        width="335"
-        height="418"
-        rx="30"
-        fill="#081224"
-        stroke="url(#cardRGB)"
-        stroke-width="2.5"/>
+    <!-- ===================================================
+         FLOATING MOTION
+    ==================================================== -->
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 0;0 -9;0 0;0 7;0 0"
+      dur="5s"
+      repeatCount="indefinite"/>
 
 
-  <!-- =========================================================
-       CARD HEADER
-  ========================================================== -->
+    <!-- ===================================================
+         TOP LANYARD
+    ==================================================== -->
 
-  <rect x="846"
-        y="80"
-        width="293"
-        height="34"
-        rx="10"
-        fill="#101d36"/>
+    <rect
+      x="958"
+      y="42"
+      width="62"
+      height="42"
+      rx="10"
+      fill="#d9dde7"
+      opacity=".95"/>
 
-  <text x="862"
-        y="102"
-        fill="#39dfff"
-        font-family="monospace"
-        font-size="10"
-        letter-spacing=".7">
-    PARUL UNIVERSITY · CSE
-  </text>
-
-  <text x="1062"
-        y="102"
-        fill="#91a6cb"
-        font-family="monospace"
-        font-size="9">
-    PROFILE ID 01
-  </text>
+    <rect
+      x="971"
+      y="76"
+      width="36"
+      height="28"
+      rx="8"
+      fill="#9da8ba"/>
 
 
-  <!-- =========================================================
-       ID CARD PHOTO
-       Replace the href with your actual image if required.
-  ========================================================== -->
-
-  <rect x="910"
-        y="140"
-        width="246"
-        height="205"
-        rx="15"
-        fill="#020712"
-        stroke="#142644"
-        stroke-width="1"/>
-
-  <image
-    x="922"
-    y="151"
-    width="222"
-    height="184"
-    preserveAspectRatio="xMidYMid slice"
-    clip-path="url(#cardImageClip)"
-    href="./assets/profile-id-card.png"/>
+    <!-- connector -->
+    <rect
+      x="977"
+      y="96"
+      width="24"
+      height="35"
+      rx="11"
+      fill="none"
+      stroke="#d9dde7"
+      stroke-width="7"/>
 
 
-  <!-- Photo RGB scan -->
-  <rect x="922"
-        y="151"
-        width="222"
-        height="3"
-        rx="2"
-        fill="#00eaff"
-        opacity=".8"
-        filter="url(#smallGlow)">
-
-    <animate attributeName="y"
-             values="151;332;151"
-             dur="3.2s"
-             repeatCount="indefinite"/>
-  </rect>
+    <!-- first ring -->
+    <ellipse
+      cx="989"
+      cy="134"
+      rx="14"
+      ry="19"
+      fill="none"
+      stroke="#b8c1d0"
+      stroke-width="6"/>
 
 
-  <!-- =========================================================
-       CARD NAME
-  ========================================================== -->
-
-  <text x="860"
-        y="392"
-        fill="#ffffff"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="24"
-        font-weight="900"
-        letter-spacing=".4">
-    ABHISHEK KUMAR
-  </text>
-
-  <text x="860"
-        y="415"
-        fill="#7df9ff"
-        font-family="monospace"
-        font-size="11">
-    B.Tech CSE · Full-Stack / AI / Cloud
-  </text>
+    <!-- second ring -->
+    <ellipse
+      cx="989"
+      cy="166"
+      rx="14"
+      ry="19"
+      fill="none"
+      stroke="#b8c1d0"
+      stroke-width="6"/>
 
 
-  <!-- =========================================================
-       CARD FOOTER
-  ========================================================== -->
+    <!-- ===================================================
+         CARD OUTER RGB GLOW
+    ==================================================== -->
 
-  <line x1="860"
-        y1="435"
-        x2="1125"
-        y2="435"
-        stroke="#263957"
-        stroke-width="1"/>
-
-  <text x="860"
-        y="457"
-        fill="#65799c"
-        font-family="monospace"
-        font-size="9">
-    SOFTWARE ENGINEER
-  </text>
-
-  <text x="1040"
-        y="457"
-        fill="#39dfff"
-        font-family="monospace"
-        font-size="9">
-    ● ONLINE
-  </text>
+    <rect
+      x="830"
+      y="180"
+      width="318"
+      height="330"
+      rx="28"
+      fill="none"
+      stroke="url(#cardRGB)"
+      stroke-width="14"
+      opacity=".18"
+      filter="url(#glow)"/>
 
 
-  <!-- =========================================================
-       FLOATING RGB PARTICLES
-  ========================================================== -->
+    <!-- ===================================================
+         CARD BODY
+    ==================================================== -->
 
-  <circle cx="790"
-          cy="85"
-          r="2"
-          fill="#00eaff">
-    <animate attributeName="cy"
-             values="85;55;85"
-             dur="2.4s"
-             repeatCount="indefinite"/>
-    <animate attributeName="opacity"
-             values=".2;1;.2"
-             dur="2.4s"
-             repeatCount="indefinite"/>
+    <rect
+      x="830"
+      y="180"
+      width="318"
+      height="330"
+      rx="28"
+      fill="url(#cardSurface)"
+      stroke="url(#cardRGB)"
+      stroke-width="2.5"/>
+
+
+    <!-- ===================================================
+         CARD HEADER
+    ==================================================== -->
+
+    <rect
+      x="850"
+      y="199"
+      width="278"
+      height="36"
+      rx="10"
+      fill="#111d35"/>
+
+
+    <text
+      x="865"
+      y="222"
+      fill="#46ddff"
+      font-family="monospace"
+      font-size="9"
+      letter-spacing=".5">
+
+      PARUL UNIVERSITY · CSE
+
+    </text>
+
+
+    <text
+      x="1049"
+      y="222"
+      fill="#8295b8"
+      font-family="monospace"
+      font-size="8">
+
+      PROFILE / 01
+
+    </text>
+
+
+    <!-- ===================================================
+         PHOTO FRAME
+    ==================================================== -->
+
+    <rect
+      x="894"
+      y="252"
+      width="250"
+      height="204"
+      rx="16"
+      fill="#020611"
+      stroke="#203352"
+      stroke-width="1.5"/>
+
+
+    <!-- ===================================================
+         YOUR PHOTO
+
+         IMPORTANT:
+         Put your portrait here:
+
+         assets/profile.png
+
+         Current uploaded portrait is image(8).png
+    ==================================================== -->
+
+    <image
+      x="904"
+      y="262"
+      width="218"
+      height="184"
+      preserveAspectRatio="xMidYMid slice"
+      clip-path="url(#photoClip)"
+      href="./assets/profile.png"/>
+
+
+    <!-- photo shade -->
+
+    <rect
+      x="904"
+      y="262"
+      width="218"
+      height="184"
+      rx="14"
+      fill="url(#photoShade)"/>
+
+
+    <!-- ===================================================
+         MOVING PHOTO SCAN
+    ==================================================== -->
+
+    <rect
+      x="904"
+      y="262"
+      width="218"
+      height="3"
+      rx="2"
+      fill="#00eaff"
+      opacity=".85"
+      filter="url(#smallGlow)">
+
+      <animate
+        attributeName="y"
+        values="262;443;262"
+        dur="3.3s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="opacity"
+        values=".15;1;.15"
+        dur="3.3s"
+        repeatCount="indefinite"/>
+
+    </rect>
+
+
+    <!-- ===================================================
+         MOVING CARD SHINE
+    ==================================================== -->
+
+    <rect
+      x="830"
+      y="180"
+      width="318"
+      height="330"
+      rx="28"
+      fill="url(#shine)"
+      opacity=".25"/>
+
+
+    <!-- ===================================================
+         CARD NAME
+    ==================================================== -->
+
+    <text
+      x="856"
+      y="480"
+      fill="#ffffff"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="23"
+      font-weight="900">
+
+      ABHISHEK KUMAR
+
+    </text>
+
+
+    <text
+      x="856"
+      y="500"
+      fill="#74efff"
+      font-family="monospace"
+      font-size="9">
+
+      B.Tech CSE · Full-Stack / AI / Cloud
+
+    </text>
+
+
+    <!-- ===================================================
+         RGB LIGHT DOT
+    ==================================================== -->
+
+    <circle
+      cx="1118"
+      cy="195"
+      r="32"
+      fill="url(#light)"
+      opacity=".08">
+
+      <animate
+        attributeName="opacity"
+        values=".04;.22;.04"
+        dur="2s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+  </g>
+
+
+  <!-- =====================================================
+       FLOATING PARTICLES
+  ====================================================== -->
+
+  <circle
+    cx="790"
+    cy="110"
+    r="2.5"
+    fill="#00eaff"
+    filter="url(#smallGlow)">
+
+    <animate
+      attributeName="cy"
+      values="110;80;110"
+      dur="2.4s"
+      repeatCount="indefinite"/>
+
+    <animate
+      attributeName="opacity"
+      values=".15;1;.15"
+      dur="2.4s"
+      repeatCount="indefinite"/>
+
   </circle>
 
-  <circle cx="1180"
-          cy="400"
-          r="2"
-          fill="#ff00c8">
-    <animate attributeName="cx"
-             values="1180;1155;1180"
-             dur="3s"
-             repeatCount="indefinite"/>
-    <animate attributeName="opacity"
-             values=".2;1;.2"
-             dur="3s"
-             repeatCount="indefinite"/>
-  </circle>
 
-  <circle cx="790"
-          cy="450"
-          r="2"
-          fill="#7c3cff">
-    <animate attributeName="cy"
-             values="450;420;450"
-             dur="2.7s"
-             repeatCount="indefinite"/>
-    <animate attributeName="opacity"
-             values=".2;1;.2"
-             dur="2.7s"
-             repeatCount="indefinite"/>
+  <circle
+    cx="780"
+    cy="450"
+    r="2.5"
+    fill="#a855f7"
+    filter="url(#smallGlow)">
+
+    <animate
+      attributeName="cy"
+      values="450;420;450"
+      dur="2.7s"
+      repeatCount="indefinite"/>
+
+    <animate
+      attributeName="opacity"
+      values=".15;1;.15"
+      dur="2.7s"
+      repeatCount="indefinite"/>
+
   </circle>
 
 
-  <!-- =========================================================
-       BOTTOM STATUS LINE
-  ========================================================== -->
+  <circle
+    cx="1170"
+    cy="400"
+    r="2.5"
+    fill="#ff00a8"
+    filter="url(#smallGlow)">
 
-  <text x="63"
-        y="505"
-        fill="#405473"
-        font-family="monospace"
-        font-size="9"
-        letter-spacing="1">
+    <animate
+      attributeName="cx"
+      values="1170;1145;1170"
+      dur="3s"
+      repeatCount="indefinite"/>
+
+    <animate
+      attributeName="opacity"
+      values=".15;1;.15"
+      dur="3s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+
+  <!-- =====================================================
+       STATUS
+  ====================================================== -->
+
+  <text
+    x="63"
+    y="512"
+    fill="#405473"
+    font-family="monospace"
+    font-size="9"
+    letter-spacing="1">
+
     SYSTEM_STATUS :: BUILDING · LEARNING · SHIPPING
+
   </text>
 
-  <circle cx="500"
-          cy="502"
-          r="3"
-          fill="#00ffb3">
-    <animate attributeName="opacity"
-             values="1;.2;1"
-             dur="1.2s"
-             repeatCount="indefinite"/>
+
+  <circle
+    cx="500"
+    cy="509"
+    r="3"
+    fill="#00ffb2">
+
+    <animate
+      attributeName="opacity"
+      values="1;.2;1"
+      dur="1.2s"
+      repeatCount="indefinite"/>
+
   </circle>
+
+
+  <!-- =====================================================
+       CORNER ACCENTS
+  ====================================================== -->
+
+  <path
+    d="M48 42H82M48 42V76"
+    stroke="#00eaff"
+    stroke-width="2"
+    opacity=".8"/>
+
+
+  <path
+    d="M1152 518H1118M1152 518V484"
+    stroke="#ff00a8"
+    stroke-width="2"
+    opacity=".8"/>
 
 </svg>
